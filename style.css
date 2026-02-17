@@ -59,6 +59,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    color: var(--Stone-900);
 }
 
 .header img {
@@ -104,4 +105,21 @@ h2 {
 
 .igredients ul {
     padding-left: 1.5rem;
+    padding-top: 1rem;
 }
+
+.instructions ol {
+    margin-left: 1.3rem;
+}
+
+.instructions li {
+    padding: 0.4rem;
+    color: var(--Brown-800);
+    font-weight: 800;
+}
+
+.instructions span {
+    color: black;
+    font-weight: 400;
+}
+
