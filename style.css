@@ -53,7 +53,7 @@ body {
 main {
     background-color: var(--White);
     padding: 3rem;
-    margin: 1rem;
+    margin: 2rem;
     width: 50%;
     border-radius: 20px;
     display: flex;
@@ -78,7 +78,11 @@ main {
 }
 
 .prep li {
-    margin: 1rem;
+    margin: 1rem 1.3rem;
+}
+
+.prep li::marker {
+    color: var(--Rose-800);
 }
 
 span {
@@ -94,13 +98,17 @@ h2 {
     color: var(--Brown-800);
 }
 
-.igredients {
+.igredients, .instructions {
     border-bottom: 1px solid gray;
     padding-bottom: 1.5rem;
 }
 
-.igredients li{
+.igredients li {
     padding: 0.4rem;
+}
+
+.igredients li::marker {
+    color: var(--Brown-800);
 }
 
 .igredients ul {
@@ -119,7 +127,31 @@ h2 {
 }
 
 .instructions span {
-    color: black;
+    color: var(--Stone-900);
     font-weight: 400;
+}
+
+.nutrition p {
+    margin: 1rem 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 50px;
+    width: 100%;
+    color: var(--Stone-900);
+}
+
+table td:last-child {
+    font-weight: 700;
+    color: var(--Brown-800);
+}
+
+tr {
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+td {
+    padding: 1rem 2rem;
 }
 
