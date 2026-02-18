@@ -2,6 +2,8 @@
 
 ![Design preview for the Recipe page coding challenge](./preview.jpg)
 
+https://michaell0.github.io/Recipe-challange/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
